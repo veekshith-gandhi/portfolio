@@ -1,8 +1,6 @@
 import styles from "./Contact.module.css";
 import EmailIcon from "@material-ui/icons/Email";
 import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
-import QuestionAnswerOutlinedIcon from "@mui/icons-material/QuestionAnswerOutlined";
-import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export default function Contact() {
