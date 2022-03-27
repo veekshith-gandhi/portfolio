@@ -1,3 +1,5 @@
+/** @format */
+
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Readex+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
@@ -103,7 +105,7 @@
 .content {
   color: #fff;
   display: flex;
-  width: 70%;
+  width: 75%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -128,7 +130,8 @@
 }
 
 .profilePic {
-  border-radius: 7px;
+  border-radius: 40px;
+  margin-right: 45px;
 }
 
 .parent {
@@ -153,7 +156,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .name{
+  .name {
     display: none;
   }
   .tab {
@@ -161,7 +164,7 @@
     font-size: 1rem;
     justify-content: center;
     flex-wrap: wrap;
-    margin:auto;
+    margin: auto;
   }
   .iconWrap {
     flex-wrap: wrap;
@@ -174,7 +177,7 @@
     margin-left: 1%;
     justify-content: center;
     align-items: center;
-    margin-top:20%;
+    margin-top: 20%;
   }
   .content {
     width: 70%;
@@ -184,8 +187,7 @@
     font-size: 1.9rem;
     text-align: center;
   }
-  .content p:nth-child(2)
- {
+  .content p:nth-child(2) {
     font-size: 1rem;
     text-align: center;
     line-height: 1.5;

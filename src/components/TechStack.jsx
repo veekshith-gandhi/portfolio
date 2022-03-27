@@ -1,3 +1,5 @@
+/** @format */
+
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
@@ -85,8 +87,14 @@ export default function TechStack() {
 
         <Grid item xs={5} sm={2}>
           <Item elevation={1} variant="outlined">
-            <img src="/figma.png" alt="react"></img>
-            <p>Material UI</p>
+            <img src="/nodejs.png" alt="react"></img>
+            <p>Nodejs</p>
+          </Item>
+        </Grid>
+        <Grid item xs={5} sm={2}>
+          <Item elevation={1} variant="outlined">
+            <img src="/mongodb.jpg" alt="react"></img>
+            <p>MongoDB</p>
           </Item>
         </Grid>
       </Grid>

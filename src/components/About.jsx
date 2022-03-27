@@ -1,3 +1,5 @@
+/** @format */
+
 import styles from "./About.module.css";
 
 const About = () => {
@@ -22,9 +24,9 @@ const About = () => {
           <p>
             I love visualizing and curating wonderful experiences with code, and
             designs. Today I have completed a couple of projects and have got
-            good hands-on with various front-end technologies. Besides, my
-            professional experience helped me to become more adaptable and a
-            good team player.
+            good hands-on with various front-end and backend technologies.
+            Besides my professional experience helped me to become more
+            adaptable and a good team player.
           </p>
         </div>
       </div>

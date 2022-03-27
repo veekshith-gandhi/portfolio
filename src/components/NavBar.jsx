@@ -1,3 +1,5 @@
+/** @format */
+
 import styles from "./NavBar.module.css";
 import Button from "@material-ui/core/Button";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -17,8 +19,8 @@ export default function NavBar() {
   const onDownload = () => {
     console.log("clicked");
     const link = document.createElement("a");
-    link.download = `pw1_046_Aiswarya_R.pdf`;
-    link.href = "./pw1_046_Aiswarya_R.pdf";
+    link.download = `veekshith.pdf`;
+    link.href = "./veekshith.pdf";
     link.click();
   };
 
@@ -119,7 +121,7 @@ export default function NavBar() {
           >
             <div className={styles.wrap}>
               <div className={styles.content}>
-                <p style={{ fontSize: "2rem" }}>Hi, I am NM Veekshith Gandhi</p>
+                <p style={{ fontSize: "29px" }}>Hi, I am NM Veekshith Gandhi</p>
                 <p> A Full-stack Developer, and Sportsman .</p>
                 <div className={styles.iconWrap}>
                   <Tooltip title="Instagram">
@@ -200,9 +202,9 @@ export default function NavBar() {
                 }}
               >
                 <img
-                  src="./profile.png"
+                  src="./profile.jpg"
                   alt="profile"
-                  width="40%"
+                  width="60%"
                   className={styles.profilePic}
                 />
               </div>

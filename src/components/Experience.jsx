@@ -1,3 +1,5 @@
+/** @format */
+
 import styles from "./Project.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -32,17 +34,10 @@ export default function Project() {
       >
         <legend>ROLES AND RESPONSIBILITIES</legend>
         <ul style={{ textAlign: "Left", fontSize: "18px", lineHeight: "2" }}>
+          <li>Operates in a virtual ,global eCommerce environment.</li>
+          <li>Pricing Analytics and operations..</li>
           <li>
-            Developer in an agile team of a US-based wealth management firm.
-          </li>
-          <li>
-            Development, testing, and support of all the requirements and
-            managing all aspects of SDLC.
-          </li>
-          <li>Creates HLD/LLD documentation and user stories.</li>
-          <li>
-            Trains and orients new members and involves in sprint planning and
-            velocity estimations.
+            Follow SOPs as prescribed and provide inputs to improve the process.
           </li>
         </ul>
       </fieldset>
