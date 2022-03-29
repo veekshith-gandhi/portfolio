@@ -17,9 +17,9 @@ const About = () => {
         </div>
         <div className={styles.para}>
           <p>
-            Hola! I am NM Veekshith Gandhi trical engineering, I stepped into
-            the world of Information Technology. My passion for web development
-            started with the thought of combining art and programming.
+            Hello! I am NM Veekshith Gandhi, stepped into the world of
+            Information Technology. My passion for web development started with
+            the thought of combining art and programming.
           </p>
           <p>
             I love visualizing and curating wonderful experiences with code, and

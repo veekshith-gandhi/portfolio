@@ -1,3 +1,5 @@
+/** @format */
+
 import NavBar from "./NavBar";
 import TechStack from "./TechStack";
 import Project from "./Project";
@@ -6,7 +8,8 @@ import Footer from "./Footer";
 import About from "./About";
 import Experience from "./Experience";
 
-export default function Main() {
+export default function Main(props) {
+  console.log(props);
   return (
     <div
       width="100%"
