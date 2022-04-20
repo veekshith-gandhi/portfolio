@@ -3,6 +3,8 @@
 import styles from "./Contact.module.css";
 import EmailIcon from "@material-ui/icons/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -20,6 +22,12 @@ export default function Contact() {
           <div>
             <LocationOnIcon style={{ color: "white" }}></LocationOnIcon>
             <p>Karnataka, India</p>
+          </div>
+          <div>
+            <PermContactCalendarIcon
+              style={{ color: "white" }}
+            ></PermContactCalendarIcon>
+            <p>+91 7760950678</p>
           </div>
           <div>
             <EmailIcon style={{ color: "white" }}></EmailIcon>
