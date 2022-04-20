@@ -194,6 +194,7 @@
   }
   .profilePic {
     width: 50%;
+    margin: 1px;
   }
 
   .wrap div:nth-child(2) {

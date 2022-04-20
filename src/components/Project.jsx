@@ -17,7 +17,7 @@ const data = [
     web: "https://trello-clon-e.netlify.app",
   },
   {
-    name: "Chat Application",
+    name: "Chat App",
     techStack: ["HTML5", "CSS3", "React", "Nodejs", "Websockets"],
     desc: "A chat application makes it easy to communicate with people anywhere in the world by sending and receiving messages in real time.",
     collab: false,
