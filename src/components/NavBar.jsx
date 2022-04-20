@@ -142,7 +142,7 @@ export default function NavBar() {
                     <IconButton>
                       <Link
                         underline="none"
-                        href="https://www.linkedin.com/in/veekshith-gandhi-46921716b/"
+                        href="https://www.linkedin.com/in/veekshithgandhi/"
                         target="_blank"
                       >
                         <LinkedInIcon

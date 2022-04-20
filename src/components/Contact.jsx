@@ -1,5 +1,9 @@
+/** @format */
+
 import styles from "./Contact.module.css";
 import EmailIcon from "@material-ui/icons/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
@@ -20,6 +24,14 @@ export default function Contact() {
           <div>
             <EmailIcon style={{ color: "white" }}></EmailIcon>
             <p>veekshithgandhi@gmail.com</p>
+          </div>
+          <div>
+            <LinkedInIcon style={{ color: "white" }}></LinkedInIcon>
+            <p>linkedin.com/in/veekshithgandhi</p>
+          </div>
+          <div>
+            <GitHubIcon style={{ color: "white" }}></GitHubIcon>
+            <p>github.com/veekshith-gandhi</p>
           </div>
         </div>
         <form
